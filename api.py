@@ -5,7 +5,7 @@ from openai import OpenAI
 
 app = Flask(__name__)
 CORS(app)
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 config_list_gpt4 = autogen.config_list_from_json(
     "OAI_CONFIG_LIST",
     filter_dict={
